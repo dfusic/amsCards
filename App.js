@@ -26,7 +26,6 @@ export default function App() {
   const bgColor =
     colorScheme === "light" ? styles.lightContainer : styles.darkContainer;
 
-  console.log({ textColor, bgColor });
   const handleRandomInjury = () => {
     const randomInjuryType =
       data.injuries[Math.floor(Math.random() * data.injuries.length)];
